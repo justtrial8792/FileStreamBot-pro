@@ -78,7 +78,8 @@ Thank you for your interest in this project, and we appreciate your understandin
 
 ```py
 git clone https://github.com/justtrial8792/FileStreamBot-pro
-cd filestreambot-pro
+cd FileStreamBot-pro
+apt install python3-virtualenv
 virtualenv -p /usr/bin/python3 venv
 . ./venv/bin/activate
 pip install -r requirements.txt
